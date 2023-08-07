@@ -11,6 +11,8 @@ Hello *world!*
 #st.line_chart(df)
 
 uploaded_file = st.file_uploader("Upload CSV", type=".csv")
+df = pd.read_csv(uploaded_file)
+
 st.markdown("### Data preview")
 st.dataframe(df.head())
 

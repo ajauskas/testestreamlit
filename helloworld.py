@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import folium
+#import folium
  
 st.write("""
 # My first app

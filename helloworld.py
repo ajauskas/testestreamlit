@@ -1,12 +1,18 @@
 import streamlit as st
 import pandas as pd
 #import folium
- 
+import biogeme.database as db
+import biogeme.biogeme as bio
+import biogeme.models as models
+import biogeme.version as ver
+from biogeme.expressions import Beta
+
 st.write("""
 # My first app
 Hello *world!*
 """)
- 
+
+"""
 #df = pd.read_csv("my_data.csv")
 #st.line_chart(df)
 
@@ -31,3 +37,4 @@ with st.echo():
     # call to render Folium map in Streamlit, but don't get any data back
     # from the map (so that it won't rerun the app when the user interacts)
     st_folium(m, width=725, returned_objects=[])
+"""

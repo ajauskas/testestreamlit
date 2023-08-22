@@ -64,6 +64,7 @@ SM_COST_SCALED = SM_COST / 100
 CAR_TT_SCALED = CAR_TT / 100
 CAR_CO_SCALED = CAR_CO / 100
 
+
 V1 = ASC_TRAIN + \
      B_TIME * TRAIN_TT_SCALED + \
      B_COST * TRAIN_COST_SCALED
@@ -73,7 +74,15 @@ V2 = ASC_SM + \
 V3 = ASC_CAR + \
      B_TIME * CAR_TT_SCALED + \
      B_COST * CAR_CO_SCALED
-     
+
+V1
+V2
+V3
+
+#V1 = st.chat_input("Definir V1")
+#V2 = st.chat_input("Definir V2")
+#V3 = st.chat_input("Definir V3")
+
 V = {1: V1,
      2: V2,
      3: V3}
